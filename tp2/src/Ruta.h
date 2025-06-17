@@ -1,3 +1,6 @@
+#ifndef RUTA_H
+#define RUTA_H
+
 #include <iostream>
 #include <vector> 
 #include "VRPLIBReader.h"
@@ -22,3 +25,5 @@ class Ruta{
         int _costo; //El costo de la ruta solucion.
         int _demanda; //La suma de las demandas de los nodos en ids
 };
+ 
+#endif 
