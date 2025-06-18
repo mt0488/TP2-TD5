@@ -8,4 +8,5 @@ Solucion VMC::resolver(const VRPLIBReader & instance){
     _autos = instance.getNumVehicles();
     _visitados = vector<bool>(instance.getDimension(),false);
     _visitados[instance.getDepotId()] = true;
+    
 }
