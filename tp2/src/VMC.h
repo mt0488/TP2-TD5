@@ -12,6 +12,10 @@ public:
 
 
 private:
+    vector<bool> _visitados;
+    int _capacidad;
+    int _autos;
+
 };
 
 #endif
