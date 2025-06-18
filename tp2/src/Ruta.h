@@ -12,7 +12,6 @@ class Ruta{
         Ruta();
 
         void agregarNodo(int n, const VRPLIBReader & instance);
-        void quitarNodo(int n, const VRPLIBReader & instance);
 
         int demanda() const;
         int costo() const;

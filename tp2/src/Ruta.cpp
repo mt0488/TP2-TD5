@@ -13,3 +13,11 @@ void Ruta::agregarNodo(int n, const VRPLIBReader & instance){
     _costo += instance.getDistanceMatrix()[n][ids[ids.size()-1]]; //Actualizamos el costo usando la arista entre el ultimo id y n
 
 }
+
+int Ruta::demanda() const{
+    return _demanda;
+}
+
+int Ruta::costo() const{
+    return _costo;
+}
