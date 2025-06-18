@@ -15,6 +15,7 @@ private:
     vector<bool> _visitados;
     int _capacidad;
     int _autos;
+    void vmc(Solucion & s, Ruta & r, const VRPLIBReader & instace);
 
 };
 
