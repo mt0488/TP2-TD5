@@ -3,13 +3,11 @@
 
 #include "Solucion.h"
 
-//Clark and Wright
-
-class CAW{
-    public:
-
-    private:
+// Clark and Wright heuristic placeholder
+class CAW {
+public:
+    CAW() = default;
 };
 
-
 #endif
+
