@@ -1,8 +1,9 @@
 #include "Ruta.h"
 
-Ruta::Ruta(){
+Ruta::Ruta(const VRPLIBReader & instance){
     _costo = 0;
     _demanda = 0;
+    demandas = vector<int>(instance.getDimension());
 }
 
 void Ruta::agregarNodo(int n, const VRPLIBReader & instance){

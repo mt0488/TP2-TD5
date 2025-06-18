@@ -7,6 +7,6 @@ Solucion VMC::resolver(const VRPLIBReader & instance){
     _capacidad = instance.getCapacity();
     _autos = instance.getNumVehicles();
     _visitados = vector<bool>(instance.getDimension(),false);
-    _visitados[instance.getDepotId()] = true;
+    _visitados[instance.getDepotId()-1] = true;
     
 }

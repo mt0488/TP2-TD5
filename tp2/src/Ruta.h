@@ -9,7 +9,7 @@ using namespace std;
 class Ruta{
     public:
 
-        Ruta();
+        Ruta(const VRPLIBReader & instance);
 
         void agregarNodo(int n, const VRPLIBReader & instance);
 
