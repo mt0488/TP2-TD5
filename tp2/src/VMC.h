@@ -2,12 +2,19 @@
 #define VMC_H
 
 #include "Solucion.h"
-//Vecino mas cercano
+// Vecino mas cercano
 
 class VMC{
-    public:
 
-    private:
+public:
+    VMC();
+    Solucion resolver(const VRPLIBReader & instance);
+
+
+private:
+    vector<bool> _visitados;
+    int _capacidad;
+    int _autos;
 
 };
 
