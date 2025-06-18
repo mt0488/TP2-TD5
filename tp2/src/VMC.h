@@ -1,6 +1,7 @@
 #ifndef VMC_H
 #define VMC_H
 
+#include <vector>
 #include "Solucion.h"
 // Vecino mas cercano
 
@@ -11,8 +12,8 @@ public:
     Solucion resolver(const VRPLIBReader & instance);
 
 
-private:
-    vector<bool> _visitados;
+ private:
+     std::vector<bool> _visitados;
     int _capacidad;
     int _autos;
 

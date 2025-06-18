@@ -1,24 +1,30 @@
 #include "Ruta.h"
 
-Ruta::Ruta(const VRPLIBReader & instance){
+Ruta::Ruta(const VRPLIBReader& instance) {
     _costo = 0;
     _demanda = 0;
-    demandas = vector<int>(instance.getDimension());
+    demandas = std::vector<int>(instance.getDimension() + 1, 0);
 }
 
-void Ruta::agregarNodo(int n, const VRPLIBReader & instance){
+void Ruta::agregarNodo(int n, const VRPLIBReader& instance) {
+    if (!ids.empty()) {
+        _costo += instance.getDistanceMatrix()[ids.back()][n];
+    }
     ids.push_back(n);
     _demanda += instance.getDemands()[n];
-    demandas[n] = instance.getDemands()[n];
-
-    _costo += instance.getDistanceMatrix()[n][ids[ids.size()-1]]; //Actualizamos el costo usando la arista entre el ultimo id y n
-
+    if (n < static_cast<int>(demandas.size()))
+        demandas[n] = instance.getDemands()[n];
 }
 
-int Ruta::demanda() const{
+int Ruta::demanda() const {
     return _demanda;
 }
 
-int Ruta::costo() const{
+int Ruta::costo() const {
     return _costo;
 }
+
+const std::vector<int>& Ruta::ruta() const {
+    return ids;
+}
+

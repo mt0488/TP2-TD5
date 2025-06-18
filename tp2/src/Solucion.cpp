@@ -10,7 +10,7 @@ void Solucion::añadirRuta(Ruta r){
     _costo += r.costo();
 }
 
-int Solucion::costo(){
+int Solucion::costo() const{
     return _costo;
 }
 
