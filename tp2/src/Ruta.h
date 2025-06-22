@@ -19,7 +19,7 @@ class Ruta{
         const vector<int>& ruta(); //devolver los ids
 
     private:
-        vector<int> ids;  //Empieza y termina en el id del deposito.
+        vector<int> ids;  //Empieza y termina en el id del deposito. Como vamos agregando en orden que recorremos una ruta, funciona para obtener la proxima distancia a añadir
         vector<int> demandas;
         int _costo; //El costo de la ruta solucion.
         int _demanda; //La suma de las demandas de los nodos en ids
