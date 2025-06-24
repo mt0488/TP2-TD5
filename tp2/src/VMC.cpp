@@ -5,12 +5,13 @@ VMC::VMC(){}
 int VMC::masCercano(int n, const VRPLIBReader & instance){
     int v = -1;
     double d = 1e6 ;
-    for(int i = 1; i<instance.getDimension()+1;i++){
-        if(i!=n && !_visitados[i] && instance.getDistanceMatrix()[n][i]<d){
-            v = i;
-            d = instance.getDistanceMatrix()[n][i];
+    for(auto i:instance.getNodes()){
+        if(i.id!=n && !_visitados[i.id] && instance.getDistanceMatrix()[n][i.id]<d){
+            v = i.id;
+            d = instance.getDistanceMatrix()[n][i.id];
         }
     }
+    
     return v;
 }
 
@@ -31,6 +32,8 @@ void VMC::vmc(Solucion & s,  const VRPLIBReader & instance){
             s.añadirRuta(r);
             actual = instance.getDepotId();
             r = Ruta(instance); //Inicia una nueva ruta
+            r.agregarNodo(actual,instance);
+            
         }else{
             r.agregarNodo(w,instance);
             actual = w;
@@ -44,6 +47,7 @@ Solucion VMC::resolver(const VRPLIBReader & instance){
     Solucion sol;
     _capacidad = instance.getCapacity();
     _autos = instance.getNumVehicles();
+    
     _visitados = vector<bool>(instance.getDimension()+1,false);
     _visitados[instance.getDepotId()] = true; 
 

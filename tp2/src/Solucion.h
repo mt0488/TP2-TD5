@@ -5,6 +5,7 @@ class Solucion{
         Solucion();
         void añadirRuta(Ruta r);
         int costo();
+        void printSolucion();
 
     private:
         vector<Ruta> _rutas;

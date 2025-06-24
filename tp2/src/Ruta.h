@@ -14,15 +14,16 @@ class Ruta{
         void agregarNodo(int n, const VRPLIBReader & instance);
 
         int demanda() const;
-        int costo() const;
-
+        double costo() const;
+        void printRuta();
         const vector<int>& ruta(); //devolver los ids
 
     private:
         vector<int> ids;  //Empieza y termina en el id del deposito. Como vamos agregando en orden que recorremos una ruta, funciona para obtener la proxima distancia a añadir
-        vector<int> demandas;
-        int _costo; //El costo de la ruta solucion.
-        int _demanda; //La suma de las demandas de los nodos en ids
+        vector<double> demandas;
+        double _costo; //El costo de la ruta solucion.
+        double _demanda; //La suma de las demandas de los nodos en ids
+        int _ultimo;
 };
  
 #endif 
