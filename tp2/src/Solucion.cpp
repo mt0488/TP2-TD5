@@ -20,8 +20,8 @@ void Solucion::printSolucion(){
         for(int j = 0;j<(_rutas[i].ruta()).size();j++){
             cout<<(_rutas[i].ruta())[j]<<" ";
         }
-        cout<<"costo:"<<_rutas[i].costo()<<endl;
+        cout<<", Costo:"<<_rutas[i].costo()<<endl;
         costo+=_rutas[i].costo();
     }
-    cout<<"costo total:"<<costo<<endl;
+    cout<<"Costo total:"<<costo<<endl;
 }
