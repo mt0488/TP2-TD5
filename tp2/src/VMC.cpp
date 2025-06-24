@@ -21,14 +21,14 @@ void VMC::vmc(Solucion & s,  const VRPLIBReader & instance){
     r.agregarNodo(actual,instance);
     int i = 0; //Para la cantidad de autos
     int j =0; //Para ver si ya se visitaron todos los nodos, porque de ser así se pueden ahorrar autos
-    
+
     while(i < _autos && j<instance.getDimension()){
         int w = masCercano(actual,instance);
         if(w==-1){ 
             r.agregarNodo(instance.getDepotId(),instance); // Se cierra la ruta
             i++; //Hay que agregar otro auto
             s.añadirRuta(r);
-            actual = instance.getDepotId();
+            actual = instance.getDepotId(); //Empezamos a recorrer el grafo otra vez desde el deposito
             _capacidad = instance.getCapacity();
             r = Ruta(instance); //Inicia una nueva ruta
             r.agregarNodo(actual,instance);
