@@ -6,6 +6,7 @@ int VMC::masCercano(int n, const VRPLIBReader & instance){
     int v = -1;
     double d = 1e6 ;
     for(auto i:instance.getNodes()){
+
         if(i.id!=n && !_visitados[i.id] && instance.getDistanceMatrix()[n][i.id]<d && instance.getDemands()[i.id]<=_capacidad){
             v = i.id;
             d = instance.getDistanceMatrix()[n][i.id];
