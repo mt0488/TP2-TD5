@@ -12,8 +12,10 @@ class CAW{
 
     private:
         vector<pair<int,int>> _par;
-        vector<double>  _ahorros;
+        vector<double>  _ahorros; //_par[i] se corresponde con _ahorros[i], el ahorro que generan los nodos j,k
+        vector<Ruta> rutas_iniciales;
         int _capacidad;
+        int depot;
 };
 
 
