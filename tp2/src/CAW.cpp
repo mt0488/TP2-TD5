@@ -4,7 +4,7 @@ CAW::CAW(){}
 
 Solucion CAW::resolver(const VRPLIBReader & instance ){
     int depot = instance.getDepotId();
-
+    int capacidad = instance.getCapacity();
     //Aqui se hacen todas las rutas deposito->cliente->deposito
     for (auto i:instance.getNodes()) {
         if (i.id != depot){
@@ -39,4 +39,29 @@ Solucion CAW::resolver(const VRPLIBReader & instance ){
         swap(_par[i],_par[pos]);
     }
 
+    for(int k = 0; k<_ahorros.size();k++){
+        int i = _par[k].first;
+        int j = _par[k].second;
+
+        int id_i , id_j;
+
+        //Buscamos las rutas donde esten i y j
+        for(int s = 0;s<rutas_iniciales.size();s++){
+            const vector<int> r = rutas_iniciales[k].ruta();
+            if(find(r.begin(),r.end(),i) != r.end()) id_i = k;
+            if(find(r.begin(),r.end(),j) != r.end()) id_j = k;
+        }
+
+        //Vemos que se cumplan las condiciones para combinar las rutas donde estan i y j
+        //Como estrategia decidimos que la ruta de i se mantenga igual, si hay que modificar una ruta será la de j
+        if(id_i!=id_j){
+            Ruta& ri = rutas_iniciales[id_i];
+            Ruta& rj = rutas_iniciales[id_j];
+
+            if(ri.es_adyacente_a_d(i) && rj.es_adyacente_a_d(j) && ri.demanda()+rj.demanda()<=capacidad){
+                if(rj.ruta()[1] != j) rj.invertir_ruta();
+                
+            }
+        }
+    }
 }
