@@ -3,12 +3,17 @@
 
 #include "Solucion.h"
 
-//Clark and Wright
+//Clarke & Wright
 
 class CAW{
     public:
+        CAW();
+        Solucion resolver(const VRPLIBReader & instance);
 
     private:
+        vector<pair<int,int>> _par;
+        vector<double>  _ahorros;
+        int _capacidad;
 };
 
 
