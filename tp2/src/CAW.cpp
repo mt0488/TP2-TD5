@@ -53,15 +53,34 @@ Solucion CAW::resolver(const VRPLIBReader & instance ){
         }
 
         //Vemos que se cumplan las condiciones para combinar las rutas donde estan i y j
-        //Como estrategia decidimos que la ruta de i se mantenga igual, si hay que modificar una ruta será la de j
+        double dij = instance.getDistanceMatrix()[i][j];
         if(id_i!=id_j){
             Ruta& ri = rutas_iniciales[id_i];
             Ruta& rj = rutas_iniciales[id_j];
 
             if(ri.es_adyacente_a_d(i) && rj.es_adyacente_a_d(j) && ri.demanda()+rj.demanda()<=capacidad){
-                if(rj.ruta()[1] != j) rj.invertir_ruta();
-                
+                if(ri.ruta()[1]==i && rj.ruta()[1] ==j){
+                    rj.invertir_ruta();
+                    rj.fusionar(ri,dij);
+                    rutas_iniciales.erase(rutas_iniciales.begin() + id_i);
+                }else if(ri.ruta()[1]!=i && rj.ruta()[1] ==j){
+                    ri.fusionar(rj,dij);
+                    rutas_iniciales.erase(rutas_iniciales.begin() + id_j);
+                }else if(ri.ruta()[1]!=i && rj.ruta()[1] !=j){
+                    rj.invertir_ruta();
+                    ri.fusionar(rj,dij);
+                    rutas_iniciales.erase(rutas_iniciales.begin() + id_j);
+                }else if(ri.ruta()[1]==i && rj.ruta()[1] !=j){
+                    ri.invertir_ruta();
+                    rj.fusionar(ri,dij);
+                    rutas_iniciales.erase(rutas_iniciales.begin() + id_i);
+                }
             }
         }
     }
+    Solucion sol;
+    for (Ruta& r : rutas_iniciales) {
+        sol.añadirRuta(r);
+    }
+    return sol;
 }
