@@ -47,18 +47,20 @@ Solucion CAW::resolver(const VRPLIBReader & instance ){
 
         //Buscamos las rutas donde esten i y j
         for(int s = 0;s<rutas_iniciales.size();s++){
-            const vector<int> r = rutas_iniciales[k].ruta();
-            if(find(r.begin(),r.end(),i) != r.end()) id_i = k;
-            if(find(r.begin(),r.end(),j) != r.end()) id_j = k;
+            const vector<int> r = rutas_iniciales[s].ruta();
+            if(find(r.begin(),r.end(),i) != r.end()) id_i = s;
+            if(find(r.begin(),r.end(),j) != r.end()) id_j = s;
         }
 
         //Vemos que se cumplan las condiciones para combinar las rutas donde estan i y j
-        double dij = instance.getDistanceMatrix()[i][j];
+        
         if(id_i!=id_j){
             Ruta& ri = rutas_iniciales[id_i];
             Ruta& rj = rutas_iniciales[id_j];
 
             if(ri.es_adyacente_a_d(i) && rj.es_adyacente_a_d(j) && ri.demanda()+rj.demanda()<=capacidad){
+                double dij = instance.getDistanceMatrix()[i][j];
+                
                 if(ri.ruta()[1]==i && rj.ruta()[1] ==j){
                     rj.invertir_ruta();
                     rj.fusionar(ri,dij);
