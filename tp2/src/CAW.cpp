@@ -19,10 +19,11 @@ Solucion CAW::resolver(const VRPLIBReader & instance ){
     //Calculamos el ahorro con la formula de Clarke & Wright: Ahorro(i,j)=d[depot][i]+d[depot][j]-d[i][j]
     for (auto i:instance.getNodes()) {
         for(auto j:instance.getNodes()){
-            if(i.id!=depot && j.id!=depot && i.id<j.id) //No hacer duplicados
+            if(i.id!=depot && j.id!=depot && i.id<j.id){ //No hacer duplicados
             _ahorros.push_back(instance.getDistanceMatrix()[i.id][depot]+instance.getDistanceMatrix()[j.id][depot]-instance.getDistanceMatrix()[i.id][j.id]);
             _par.push_back({i.id,j.id});
         }
+    }
     }
 
     //Ordenamos decrecientemente los ahorros, lo hacemos con selection sort para poder ordenar el vector de pares tambien
@@ -38,28 +39,27 @@ Solucion CAW::resolver(const VRPLIBReader & instance ){
         swap(_ahorros[i],_ahorros[pos]);
         swap(_par[i],_par[pos]);
     }
-
-    for(int k = 0; k<_ahorros.size();k++){
+    
+    for(int k = 0; k<_par.size();k++){
         int i = _par[k].first;
         int j = _par[k].second;
-
-        int id_i , id_j;
+        
+        int id_i = -1 , id_j = -1;
 
         //Buscamos las rutas donde esten i y j
         for(int s = 0;s<rutas_iniciales.size();s++){
-            const vector<int> r = rutas_iniciales[s].ruta();
-            if(find(r.begin(),r.end(),i) != r.end()) id_i = s;
-            if(find(r.begin(),r.end(),j) != r.end()) id_j = s;
+            Ruta r = rutas_iniciales[s];
+            if(r.es_adyacente_a_d(i)) id_i = s;
+            if(r.es_adyacente_a_d(j)) id_j = s;
         }
 
         //Vemos que se cumplan las condiciones para combinar las rutas donde estan i y j
-        
-        if(id_i!=id_j){
+        if(id_i!=-1 && id_j != -1 && id_i!=id_j){
             Ruta& ri = rutas_iniciales[id_i];
             Ruta& rj = rutas_iniciales[id_j];
 
-            if(ri.es_adyacente_a_d(i) && rj.es_adyacente_a_d(j) && ri.demanda()+rj.demanda()<=capacidad){
-                double dij = instance.getDistanceMatrix()[i][j];
+            if(ri.demanda()+rj.demanda()<=capacidad){
+                double dij = -_ahorros[k];
                 
                 if(ri.ruta()[1]==i && rj.ruta()[1] ==j){
                     rj.invertir_ruta();
@@ -80,9 +80,11 @@ Solucion CAW::resolver(const VRPLIBReader & instance ){
             }
         }
     }
+
     Solucion sol;
     for (Ruta& r : rutas_iniciales) {
         sol.añadirRuta(r);
     }
     return sol;
 }
+

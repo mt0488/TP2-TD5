@@ -1,3 +1,6 @@
+#ifndef SOLUCION_H
+#define SOLUCION_H
+
 #include "Ruta.h"
 
 class Solucion{
@@ -12,3 +15,5 @@ class Solucion{
         int _costo;
 
 };
+
+#endif
