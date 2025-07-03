@@ -48,3 +48,20 @@ void Ruta::fusionar(Ruta r, double c){
     ids.insert(ids.end(),r.ids.begin(),r.ids.end());
     
 }
+
+void Ruta::intercambiar(Ruta & r,int i, int j, const VRPLIBReader & instance){
+    int temp=ids[i];
+    ids[i]=r.ids[j];
+    r.ids[j]=temp;
+
+    //recalcular el costo
+    _costo = 0;
+    for (int i = 0; i < ids.size() - 1; ++i) {
+        _costo += instance.getDistanceMatrix()[ids[i]][ids[i + 1]];
+    }
+
+    r._costo=0;
+    for (int i = 0; i < ids.size() - 1; ++i) {
+        r._costo += instance.getDistanceMatrix()[r.ids[i]][r.ids[i + 1]];
+    }
+}

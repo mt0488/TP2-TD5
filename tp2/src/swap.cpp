@@ -15,7 +15,7 @@ bool esSwapFactible(const Ruta& r1, const Ruta& r2, int idx1, int idx2, const VR
     return nueva_demanda_r1 <= capacidad && nueva_demanda_r2 <= capacidad;
 }
 
-void swap(Solucion & s,const VRPLIBReader & instance){
+void swapRutas(Solucion & s,const VRPLIBReader & instance){
     int id1;
     int id2;
     int ruta1; int ruta2;
@@ -56,5 +56,9 @@ void swap(Solucion & s,const VRPLIBReader & instance){
             }
             }
         }
+    }
+    if(min>0.0){
+        r[ruta1].intercambiar(r[ruta2],id1,id2,instance);
+        s.recalcularCosto();
     }
 }

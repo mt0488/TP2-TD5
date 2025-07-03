@@ -10,6 +10,7 @@ class Solucion{
         int costo();
         void printSolucion();
         vector<Ruta> rutas();
+        void recalcularCosto();
     private:
         vector<Ruta> _rutas;
         int _costo;
