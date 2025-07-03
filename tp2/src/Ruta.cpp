@@ -54,14 +54,40 @@ void Ruta::intercambiar(Ruta & r,int i, int j, const VRPLIBReader & instance){
     ids[i]=r.ids[j];
     r.ids[j]=temp;
 
-    //recalcular el costo
+    //recalcular el costo y demanda
+    _demanda=0;
+    _costo = 0;
+    for (int i = 0; i < ids.size() - 1; ++i) {
+        _costo += instance.getDistanceMatrix()[ids[i]][ids[i + 1]];
+        _demanda +=instance.getDemands()[ids[i]];
+    }
+
+    r._costo=0;
+    r._demanda=0;
+    for (int i = 0; i < r.ids.size() - 1; ++i) {
+        r._costo += instance.getDistanceMatrix()[r.ids[i]][r.ids[i + 1]];
+        r._demanda += instance.getDemands()[r.ids[i]];
+    }
+}
+
+void Ruta::insertar(Ruta& origen, int idx_origen, int idx_destino, const VRPLIBReader& instance) {
+    int n = origen.ids[idx_origen];
+    ids.insert(ids.begin() + idx_destino, n);
+
+    //recalculamos costo y demanda de esta ruta
+    _demanda += instance.getDemands()[n];
     _costo = 0;
     for (int i = 0; i < ids.size() - 1; ++i) {
         _costo += instance.getDistanceMatrix()[ids[i]][ids[i + 1]];
     }
 
-    r._costo=0;
-    for (int i = 0; i < r.ids.size() - 1; ++i) {
-        r._costo += instance.getDistanceMatrix()[r.ids[i]][r.ids[i + 1]];
+    //eliminamos el cliente de la ruta origen
+    origen.ids.erase(origen.ids.begin() + idx_origen);
+    
+    // recalculamos costo de la ruta origen
+    origen._demanda -= instance.getDemands()[n];
+    origen._costo = 0;
+    for (int i = 0; i < origen.ids.size() - 1; ++i) {
+        origen._costo += instance.getDistanceMatrix()[origen.ids[i]][origen.ids[i + 1]];
     }
 }

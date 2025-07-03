@@ -1,20 +1,21 @@
 #include "VMC.h"
 #include "CAW.h"
 #include "swap.h"
+#include "relocate.h"
 #include <iostream>
 using namespace std;
 
 
 int main(){
 
-    VRPLIBReader instance("/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-04m.dat");
+    VRPLIBReader instance("/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-05m.dat");
 
-    CAW test;
+    VMC test;
     Solucion s = test.resolver(instance);
     s.printSolucion();
 
     cout<<endl;
-    swapRutas(s,instance);
+    relocate(s,instance);
     s.printSolucion();
     return 0;
 }

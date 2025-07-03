@@ -21,6 +21,7 @@ class Ruta{
         bool es_adyacente_a_d(int n); //PRE: la ruta tiene al deposito como inicio y como fin (es para Clarke & Wright)
         const vector<int>& ruta() const; //devolver los ids
         void intercambiar(Ruta & r,int i, int j, const VRPLIBReader & instance);
+        void insertar(Ruta & origen,int idx_origen ,int idx_destino, const VRPLIBReader & instance);
 
     private:
         vector<int> ids;  //Empieza y termina en el id del deposito. Como vamos agregando en orden que recorremos una ruta, funciona para obtener la proxima distancia a añadir
