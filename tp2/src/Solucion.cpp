@@ -25,3 +25,7 @@ void Solucion::printSolucion(){
     }
     cout<<"Costo total:"<<costo<<endl;
 }
+
+vector<Ruta> Solucion::rutas(){
+    return _rutas;
+}

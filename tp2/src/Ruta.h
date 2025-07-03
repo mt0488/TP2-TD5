@@ -19,7 +19,7 @@ class Ruta{
         void invertir_ruta();
         void fusionar(Ruta r, double c); //PRE: las dos rutas tienen al deposito como inicio y como fin (es para Clarke & Wright). El parametro c es el costo entre los dos nodos que van a unir las rutas
         bool es_adyacente_a_d(int n); //PRE: la ruta tiene al deposito como inicio y como fin (es para Clarke & Wright)
-        const vector<int>& ruta(); //devolver los ids
+        const vector<int>& ruta() const; //devolver los ids
 
     private:
         vector<int> ids;  //Empieza y termina en el id del deposito. Como vamos agregando en orden que recorremos una ruta, funciona para obtener la proxima distancia a añadir

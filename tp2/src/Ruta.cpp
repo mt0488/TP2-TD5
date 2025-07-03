@@ -23,7 +23,7 @@ double Ruta::costo() const{
     return _costo;
 }
 
-const vector<int>& Ruta::ruta(){
+const vector<int>& Ruta::ruta() const{
     return ids;
 }
 
