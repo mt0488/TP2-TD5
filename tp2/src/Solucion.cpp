@@ -25,3 +25,14 @@ void Solucion::printSolucion(){
     }
     cout<<"Costo total:"<<costo<<endl;
 }
+
+vector<Ruta>& Solucion::rutas(){
+    return _rutas;
+}
+
+void Solucion::recalcularCosto(){
+    _costo=0;
+    for(int i=0;i<_rutas.size();i++){
+        _costo+=_rutas[i].costo();
+    }
+}

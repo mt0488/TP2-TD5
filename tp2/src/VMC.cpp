@@ -23,7 +23,12 @@ void VMC::vmc(Solucion & s,  const VRPLIBReader & instance){
     int i = 0; //Para la cantidad de autos
     int j =0; //Para ver si ya se visitaron todos los nodos, porque de ser así se pueden ahorrar autos
 
-    while(i < _autos && j<instance.getDimension()){
+    while(i < _autos){
+        if(j==instance.getDimension()-1){ //Ya se visitaron todos los nodos, podemos ahorrar autos
+            r.agregarNodo(instance.getDepotId(),instance); // Se cierra la ruta
+            s.añadirRuta(r);
+            break;
+        }
         int w = masCercano(actual,instance);
         if(w==-1){ 
             r.agregarNodo(instance.getDepotId(),instance); // Se cierra la ruta

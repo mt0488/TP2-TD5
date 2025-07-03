@@ -1,3 +1,6 @@
+#ifndef SOLUCION_H
+#define SOLUCION_H
+
 #include "Ruta.h"
 
 class Solucion{
@@ -6,9 +9,12 @@ class Solucion{
         void añadirRuta(Ruta r);
         int costo();
         void printSolucion();
-
+        vector<Ruta>& rutas();
+        void recalcularCosto();
     private:
         vector<Ruta> _rutas;
         int _costo;
 
 };
+
+#endif
