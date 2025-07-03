@@ -61,7 +61,7 @@ void Ruta::intercambiar(Ruta & r,int i, int j, const VRPLIBReader & instance){
     }
 
     r._costo=0;
-    for (int i = 0; i < ids.size() - 1; ++i) {
+    for (int i = 0; i < r.ids.size() - 1; ++i) {
         r._costo += instance.getDistanceMatrix()[r.ids[i]][r.ids[i + 1]];
     }
 }

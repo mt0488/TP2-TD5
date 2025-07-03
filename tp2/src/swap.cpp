@@ -1,4 +1,4 @@
-#include "Solucion.h"
+#include "swap.h"
 
 using namespace std;
 
@@ -20,7 +20,7 @@ void swapRutas(Solucion & s,const VRPLIBReader & instance){
     int id2;
     int ruta1; int ruta2;
     double min=0.0;
-    vector<Ruta> r = s.rutas();
+    vector<Ruta>& r = s.rutas();
 
     for(int i=0;i<r.size();i++){
         for(int j = i+1;j<r.size();j++){

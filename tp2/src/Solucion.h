@@ -9,7 +9,7 @@ class Solucion{
         void añadirRuta(Ruta r);
         int costo();
         void printSolucion();
-        vector<Ruta> rutas();
+        vector<Ruta>& rutas();
         void recalcularCosto();
     private:
         vector<Ruta> _rutas;
