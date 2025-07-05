@@ -48,7 +48,7 @@ Solucion CAW::resolver(const VRPLIBReader & instance ){
 
         //Buscamos las rutas donde esten i y j
         for(int s = 0;s<rutas_iniciales.size();s++){
-            Ruta r = rutas_iniciales[s];
+            Ruta& r = rutas_iniciales[s];
             if(r.es_adyacente_a_d(i)) id_i = s;
             if(r.es_adyacente_a_d(j)) id_j = s;
         }
