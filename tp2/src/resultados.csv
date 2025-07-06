@@ -1,372 +1,372 @@
 Instancia;Algoritmo;Costo;Tiempo(ms);Relax
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-03m.dat;Vecino más cercano;316.741;34;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-03m.dat;Clarke and Wright;281.653;114;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-03m.dat;Vecino mas cercano + swap;316.741;38;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-03m.dat;Vecino mas cercano + relocate;312.510;29;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-03m.dat;Clarke and wright + swap;281.653;146;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-03m.dat;Clarke and wright + relocate;281.653;146;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-03m.dat;Vecino mas cercano + swap + relocate;312.510;39;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-05m.dat;Vecino más cercano;397.027;40;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-05m.dat;Clarke and Wright;337.396;137;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-05m.dat;Vecino mas cercano + swap;383.254;62;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-05m.dat;Vecino mas cercano + relocate;385.911;50;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-05m.dat;Clarke and wright + swap;336.567;138;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-05m.dat;Clarke and wright + relocate;337.396;134;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-05m.dat;Vecino mas cercano + swap + relocate;380.266;55;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-03m.dat;Vecino más cercano;316.741;27;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-03m.dat;Clarke and Wright;281.653;105;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-03m.dat;Vecino mas cercano + swap;316.741;28;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-03m.dat;Vecino mas cercano + relocate;312.510;25;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-03m.dat;Clarke and wright + swap;281.653;106;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-03m.dat;Clarke and wright + relocate;281.653;100;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-03m.dat;Vecino mas cercano + swap + relocate;312.510;30;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-05m.dat;Vecino más cercano;397.027;32;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-05m.dat;Clarke and Wright;337.396;112;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-05m.dat;Vecino mas cercano + swap;383.254;34;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-05m.dat;Vecino mas cercano + relocate;385.911;30;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-05m.dat;Clarke and wright + swap;336.567;107;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-05m.dat;Clarke and wright + relocate;337.396;102;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-05m.dat;Vecino mas cercano + swap + relocate;380.266;35;
 /workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-04m.dat;Vecino más cercano;451.814;41;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-04m.dat;Clarke and Wright;381.125;206;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-04m.dat;Vecino mas cercano + swap;439.698;48;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-04m.dat;Vecino mas cercano + relocate;444.121;41;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-04m.dat;Clarke and wright + swap;370.915;248;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-04m.dat;Clarke and wright + relocate;381.125;205;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-04m.dat;Vecino mas cercano + swap + relocate;432.004;48;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-06m.dat;Vecino más cercano;569.527;45;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-06m.dat;Clarke and Wright;463.475;225;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-06m.dat;Vecino mas cercano + swap;551.249;52;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-06m.dat;Vecino mas cercano + relocate;541.870;47;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-06m.dat;Clarke and wright + swap;458.159;230;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-06m.dat;Clarke and wright + relocate;463.475;213;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-06m.dat;Vecino mas cercano + swap + relocate;528.296;53;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-04g.dat;Vecino más cercano;589.421;46;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-04g.dat;Clarke and Wright;388.772;252;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-04g.dat;Vecino mas cercano + swap;589.421;55;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-04g.dat;Vecino mas cercano + relocate;540.783;66;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-04g.dat;Clarke and wright + swap;385.497;268;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-04g.dat;Clarke and wright + relocate;387.543;269;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-04g.dat;Vecino mas cercano + swap + relocate;540.783;58;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-06m.dat;Vecino más cercano;745.586;53;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-06m.dat;Clarke and Wright;508.721;282;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-06m.dat;Vecino mas cercano + swap;719.875;75;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-06m.dat;Vecino mas cercano + relocate;700.873;66;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-06m.dat;Clarke and wright + swap;508.721;424;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-06m.dat;Clarke and wright + relocate;508.219;421;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-06m.dat;Vecino mas cercano + swap + relocate;672.881;86;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-03g.dat;Vecino más cercano;746.734;45;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-03g.dat;Clarke and Wright;623.380;264;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-03g.dat;Vecino mas cercano + swap;711.392;72;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-03g.dat;Vecino mas cercano + relocate;736.743;51;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-03g.dat;Clarke and wright + swap;623.380;281;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-04m.dat;Clarke and Wright;381.125;234;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-04m.dat;Vecino mas cercano + swap;439.698;47;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-04m.dat;Vecino mas cercano + relocate;444.121;39;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-04m.dat;Clarke and wright + swap;370.915;205;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-04m.dat;Clarke and wright + relocate;381.125;201;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-04m.dat;Vecino mas cercano + swap + relocate;432.004;46;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-06m.dat;Vecino más cercano;569.527;68;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-06m.dat;Clarke and Wright;463.475;309;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-06m.dat;Vecino mas cercano + swap;551.249;63;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-06m.dat;Vecino mas cercano + relocate;541.870;58;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-06m.dat;Clarke and wright + swap;458.159;274;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-06m.dat;Clarke and wright + relocate;463.475;230;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E021-06m.dat;Vecino mas cercano + swap + relocate;528.296;57;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-04g.dat;Vecino más cercano;589.421;45;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-04g.dat;Clarke and Wright;388.772;237;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-04g.dat;Vecino mas cercano + swap;589.421;51;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-04g.dat;Vecino mas cercano + relocate;540.783;49;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-04g.dat;Clarke and wright + swap;385.497;254;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-04g.dat;Clarke and wright + relocate;387.543;289;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-04g.dat;Vecino mas cercano + swap + relocate;540.783;72;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-06m.dat;Vecino más cercano;745.586;49;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-06m.dat;Clarke and Wright;508.721;351;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-06m.dat;Vecino mas cercano + swap;719.875;62;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-06m.dat;Vecino mas cercano + relocate;700.873;58;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-06m.dat;Clarke and wright + swap;508.721;303;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-06m.dat;Clarke and wright + relocate;508.219;298;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E022-06m.dat;Vecino mas cercano + swap + relocate;672.881;70;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-03g.dat;Vecino más cercano;746.734;47;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-03g.dat;Clarke and Wright;623.380;295;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-03g.dat;Vecino mas cercano + swap;711.392;68;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-03g.dat;Vecino mas cercano + relocate;736.743;76;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-03g.dat;Clarke and wright + swap;623.380;336;
 /workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-03g.dat;Clarke and wright + relocate;623.380;287;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-03g.dat;Vecino mas cercano + swap + relocate;701.322;69;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-05S.DAT;Vecino más cercano;746.734;60;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-05S.DAT;Clarke and Wright;623.380;408;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-05S.DAT;Vecino mas cercano + swap;711.392;64;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-05S.DAT;Vecino mas cercano + relocate;736.743;65;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-05S.DAT;Clarke and wright + swap;623.380;406;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-05S.DAT;Clarke and wright + relocate;623.380;388;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-03g.dat;Vecino mas cercano + swap + relocate;701.322;66;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-05S.DAT;Vecino más cercano;746.734;47;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-05S.DAT;Clarke and Wright;623.380;292;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-05S.DAT;Vecino mas cercano + swap;711.392;70;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-05S.DAT;Vecino mas cercano + relocate;736.743;53;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-05S.DAT;Clarke and wright + swap;623.380;281;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-05S.DAT;Clarke and wright + relocate;623.380;283;
 /workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E023-05S.DAT;Vecino mas cercano + swap + relocate;701.322;71;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E026-08m.dat;Vecino más cercano;631.455;151;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E026-08m.dat;Clarke and Wright;629.194;416;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E026-08m.dat;Vecino mas cercano + swap;631.455;100;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E026-08m.dat;Vecino mas cercano + relocate;631.310;88;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E026-08m.dat;Clarke and wright + swap;627.956;427;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E026-08m.dat;Clarke and wright + relocate;629.194;399;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E026-08m.dat;Vecino mas cercano + swap + relocate;631.310;82;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-03g.dat;Vecino más cercano;639.694;69;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-03g.dat;Clarke and Wright;532.072;662;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-03g.dat;Vecino mas cercano + swap;632.240;116;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-03g.dat;Vecino mas cercano + relocate;620.446;102;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-03g.dat;Clarke and wright + swap;532.072;787;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-03g.dat;Clarke and wright + relocate;532.072;1001;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-03g.dat;Vecino mas cercano + swap + relocate;615.410;126;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-04S.DAT;Vecino más cercano;639.694;67;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-04S.DAT;Clarke and Wright;532.072;620;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-04S.DAT;Vecino mas cercano + swap;632.240;87;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-04S.DAT;Vecino mas cercano + relocate;620.446;75;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-04S.DAT;Clarke and wright + swap;532.072;608;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-04S.DAT;Clarke and wright + relocate;532.072;670;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-04S.DAT;Vecino mas cercano + swap + relocate;615.410;101;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E031-09h.dat;Vecino más cercano;695.917;136;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E031-09h.dat;Clarke and Wright;625.215;1154;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E031-09h.dat;Vecino mas cercano + swap;677.801;138;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E031-09h.dat;Vecino mas cercano + relocate;650.470;100;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E031-09h.dat;Clarke and wright + swap;623.933;834;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E031-09h.dat;Clarke and wright + relocate;624.391;802;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E031-09h.dat;Vecino mas cercano + swap + relocate;627.659;148;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-03N.DAT;Vecino más cercano;2601.305;83;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-03N.DAT;Clarke and Wright;2075.574;849;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-03N.DAT;Vecino mas cercano + swap;2599.194;106;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-03N.DAT;Vecino mas cercano + relocate;2522.176;128;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-03N.DAT;Clarke and wright + swap;2075.574;875;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-03N.DAT;Clarke and wright + relocate;2075.237;1046;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-03N.DAT;Vecino mas cercano + swap + relocate;2548.927;158;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-04g.dat;Vecino más cercano;1002.190;79;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-04g.dat;Clarke and Wright;843.749;905;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-04g.dat;Vecino mas cercano + swap;1000.458;101;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-04g.dat;Vecino mas cercano + relocate;963.914;96;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E026-08m.dat;Vecino más cercano;631.455;76;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E026-08m.dat;Clarke and Wright;629.194;449;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E026-08m.dat;Vecino mas cercano + swap;631.455;88;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E026-08m.dat;Vecino mas cercano + relocate;631.310;93;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E026-08m.dat;Clarke and wright + swap;627.956;493;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E026-08m.dat;Clarke and wright + relocate;629.194;490;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E026-08m.dat;Vecino mas cercano + swap + relocate;631.310;100;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-03g.dat;Vecino más cercano;639.694;75;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-03g.dat;Clarke and Wright;532.072;689;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-03g.dat;Vecino mas cercano + swap;632.240;93;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-03g.dat;Vecino mas cercano + relocate;620.446;84;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-03g.dat;Clarke and wright + swap;532.072;722;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-03g.dat;Clarke and wright + relocate;532.072;748;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-03g.dat;Vecino mas cercano + swap + relocate;615.410;112;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-04S.DAT;Vecino más cercano;639.694;75;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-04S.DAT;Clarke and Wright;532.072;1005;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-04S.DAT;Vecino mas cercano + swap;632.240;98;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-04S.DAT;Vecino mas cercano + relocate;620.446;88;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-04S.DAT;Clarke and wright + swap;532.072;951;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-04S.DAT;Clarke and wright + relocate;532.072;842;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E030-04S.DAT;Vecino mas cercano + swap + relocate;615.410;116;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E031-09h.dat;Vecino más cercano;695.917;103;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E031-09h.dat;Clarke and Wright;625.215;723;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E031-09h.dat;Vecino mas cercano + swap;677.801;120;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E031-09h.dat;Vecino mas cercano + relocate;650.470;97;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E031-09h.dat;Clarke and wright + swap;623.933;748;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E031-09h.dat;Clarke and wright + relocate;624.391;755;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E031-09h.dat;Vecino mas cercano + swap + relocate;627.659;125;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-03N.DAT;Vecino más cercano;2601.305;124;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-03N.DAT;Clarke and Wright;2075.574;1214;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-03N.DAT;Vecino mas cercano + swap;2599.194;125;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-03N.DAT;Vecino mas cercano + relocate;2522.176;119;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-03N.DAT;Clarke and wright + swap;2075.574;1287;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-03N.DAT;Clarke and wright + relocate;2075.237;1334;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-03N.DAT;Vecino mas cercano + swap + relocate;2548.927;153;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-04g.dat;Vecino más cercano;1002.190;92;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-04g.dat;Clarke and Wright;843.749;898;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-04g.dat;Vecino mas cercano + swap;1000.458;133;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-04g.dat;Vecino mas cercano + relocate;963.914;91;
 /workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-04g.dat;Clarke and wright + swap;843.749;911;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-04g.dat;Clarke and wright + relocate;843.749;957;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-04g.dat;Vecino mas cercano + swap + relocate;967.952;139;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-05s.dat;Vecino más cercano;1002.190;86;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-05s.dat;Clarke and Wright;843.749;1410;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-05s.dat;Vecino mas cercano + swap;1000.458;132;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-05s.dat;Vecino mas cercano + relocate;963.914;117;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-05s.dat;Clarke and wright + swap;843.749;1335;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-05s.dat;Clarke and wright + relocate;843.749;926;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-05s.dat;Vecino mas cercano + swap + relocate;967.952;119;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E036-11h.dat;Vecino más cercano;910.120;160;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E036-11h.dat;Clarke and Wright;731.860;1266;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E036-11h.dat;Vecino mas cercano + swap;897.749;171;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E036-11h.dat;Vecino mas cercano + relocate;888.484;140;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E036-11h.dat;Clarke and wright + swap;731.860;1349;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E036-11h.dat;Clarke and wright + relocate;731.860;1357;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E036-11h.dat;Vecino mas cercano + swap + relocate;867.220;176;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E041-14h.dat;Vecino más cercano;1070.697;168;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E041-14h.dat;Clarke and Wright;889.953;2082;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E041-14h.dat;Vecino mas cercano + swap;1044.237;200;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E041-14h.dat;Vecino mas cercano + relocate;1037.824;164;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E041-14h.dat;Clarke and wright + swap;889.953;2193;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E041-14h.dat;Clarke and wright + relocate;889.953;1890;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E041-14h.dat;Vecino mas cercano + swap + relocate;1019.658;205;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E045-04f.dat;Vecino más cercano;1233.568;184;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E045-04f.dat;Clarke and Wright;743.469;2685;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E045-04f.dat;Vecino mas cercano + swap;1220.501;198;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E045-04f.dat;Vecino mas cercano + relocate;1110.953;188;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E045-04f.dat;Clarke and wright + swap;742.185;2500;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E045-04f.dat;Clarke and wright + relocate;743.083;2561;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E045-04f.dat;Vecino mas cercano + swap + relocate;1097.886;218;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E048-04y.dat;Vecino más cercano;52006.220;177;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E048-04y.dat;Clarke and Wright;43477.378;4169;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-04g.dat;Clarke and wright + relocate;843.749;1001;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-04g.dat;Vecino mas cercano + swap + relocate;967.952;132;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-05s.dat;Vecino más cercano;1002.190;79;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-05s.dat;Clarke and Wright;843.749;880;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-05s.dat;Vecino mas cercano + swap;1000.458;100;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-05s.dat;Vecino mas cercano + relocate;963.914;95;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-05s.dat;Clarke and wright + swap;843.749;1034;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-05s.dat;Clarke and wright + relocate;843.749;921;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E033-05s.dat;Vecino mas cercano + swap + relocate;967.952;118;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E036-11h.dat;Vecino más cercano;910.120;124;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E036-11h.dat;Clarke and Wright;731.860;1355;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E036-11h.dat;Vecino mas cercano + swap;897.749;198;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E036-11h.dat;Vecino mas cercano + relocate;888.484;167;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E036-11h.dat;Clarke and wright + swap;731.860;1745;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E036-11h.dat;Clarke and wright + relocate;731.860;1544;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E036-11h.dat;Vecino mas cercano + swap + relocate;867.220;156;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E041-14h.dat;Vecino más cercano;1070.697;156;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E041-14h.dat;Clarke and Wright;889.953;1857;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E041-14h.dat;Vecino mas cercano + swap;1044.237;217;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E041-14h.dat;Vecino mas cercano + relocate;1037.824;208;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E041-14h.dat;Clarke and wright + swap;889.953;2194;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E041-14h.dat;Clarke and wright + relocate;889.953;1974;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E041-14h.dat;Vecino mas cercano + swap + relocate;1019.658;216;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E045-04f.dat;Vecino más cercano;1233.568;144;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E045-04f.dat;Clarke and Wright;743.469;2966;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E045-04f.dat;Vecino mas cercano + swap;1220.501;184;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E045-04f.dat;Vecino mas cercano + relocate;1110.953;173;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E045-04f.dat;Clarke and wright + swap;742.185;2542;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E045-04f.dat;Clarke and wright + relocate;743.083;2541;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E045-04f.dat;Vecino mas cercano + swap + relocate;1097.886;833;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E048-04y.dat;Vecino más cercano;52006.220;164;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E048-04y.dat;Clarke and Wright;43477.378;3406;
 /workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E048-04y.dat;Vecino mas cercano + swap;51788.085;283;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E048-04y.dat;Vecino mas cercano + relocate;50566.574;171;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E048-04y.dat;Clarke and wright + swap;43335.446;3300;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E048-04y.dat;Clarke and wright + relocate;43477.378;2996;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E048-04y.dat;Vecino mas cercano + swap + relocate;50529.101;260;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E051-05e.dat;Vecino más cercano;711.499;209;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E051-05e.dat;Clarke and Wright;584.637;4417;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E051-05e.dat;Vecino mas cercano + swap;711.499;244;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E051-05e.dat;Vecino mas cercano + relocate;672.565;195;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E051-05e.dat;Clarke and wright + swap;584.637;4065;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E051-05e.dat;Clarke and wright + relocate;583.787;4677;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E051-05e.dat;Vecino mas cercano + swap + relocate;672.565;264;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E072-04f.dat;Vecino más cercano;368.267;395;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E072-04f.dat;Clarke and Wright;257.796;16756;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E072-04f.dat;Vecino mas cercano + swap;368.267;424;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E072-04f.dat;Vecino mas cercano + relocate;360.185;419;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E072-04f.dat;Clarke and wright + swap;257.796;17774;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E072-04f.dat;Clarke and wright + relocate;257.730;15070;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E072-04f.dat;Vecino mas cercano + swap + relocate;360.185;448;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07s.dat;Vecino más cercano;1070.190;432;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07s.dat;Clarke and Wright;752.792;18479;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07s.dat;Vecino mas cercano + swap;1035.895;616;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07s.dat;Vecino mas cercano + relocate;991.127;442;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07s.dat;Clarke and wright + swap;749.913;19678;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07s.dat;Clarke and wright + relocate;751.035;18792;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07s.dat;Vecino mas cercano + swap + relocate;956.832;546;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07u.dat;Vecino más cercano;1070.190;382;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07u.dat;Clarke and Wright;752.792;19175;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07u.dat;Vecino mas cercano + swap;1035.895;629;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07u.dat;Vecino mas cercano + relocate;991.127;452;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07u.dat;Clarke and wright + swap;749.913;20911;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07u.dat;Clarke and wright + relocate;751.035;19817;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07u.dat;Vecino mas cercano + swap + relocate;956.832;590;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08s.dat;Vecino más cercano;1149.405;429;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08s.dat;Clarke and Wright;799.249;19396;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08s.dat;Vecino mas cercano + swap;1125.296;718;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08s.dat;Vecino mas cercano + relocate;1079.294;446;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08s.dat;Clarke and wright + swap;792.771;19600;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08s.dat;Clarke and wright + relocate;799.249;20243;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08s.dat;Vecino mas cercano + swap + relocate;1055.185;563;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08u.dat;Vecino más cercano;1149.405;417;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08u.dat;Clarke and Wright;799.249;20381;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08u.dat;Vecino mas cercano + swap;1125.296;513;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08u.dat;Vecino mas cercano + relocate;1079.294;463;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08u.dat;Clarke and wright + swap;792.771;19063;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08u.dat;Clarke and wright + relocate;799.249;19306;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08u.dat;Vecino mas cercano + swap + relocate;1055.185;585;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-10e.dat;Vecino más cercano;1205.848;415;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-10e.dat;Clarke and Wright;878.991;21816;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-10e.dat;Vecino mas cercano + swap;1184.557;576;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-10e.dat;Vecino mas cercano + relocate;1168.301;468;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-10e.dat;Clarke and wright + swap;878.991;20674;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-10e.dat;Clarke and wright + relocate;878.991;20004;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-10e.dat;Vecino mas cercano + swap + relocate;1147.010;592;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14s.dat;Vecino más cercano;1372.637;465;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14s.dat;Clarke and Wright;1086.557;18990;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14s.dat;Vecino mas cercano + swap;1346.353;584;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14s.dat;Vecino mas cercano + relocate;1304.414;472;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14s.dat;Clarke and wright + swap;1085.765;19084;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14s.dat;Clarke and wright + relocate;1086.557;18849;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14s.dat;Vecino mas cercano + swap + relocate;1282.753;617;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14u.dat;Vecino más cercano;1372.637;433;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14u.dat;Clarke and Wright;1086.557;20076;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14u.dat;Vecino mas cercano + swap;1346.353;614;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14u.dat;Vecino mas cercano + relocate;1304.414;472;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14u.dat;Clarke and wright + swap;1085.765;19232;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14u.dat;Clarke and wright + relocate;1086.557;19204;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14u.dat;Vecino mas cercano + swap + relocate;1282.753;784;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-15s.dat;Vecino más cercano;1446.853;442;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-15s.dat;Clarke and Wright;1086.557;18678;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-15s.dat;Vecino mas cercano + swap;1420.569;594;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-15s.dat;Vecino mas cercano + relocate;1378.630;525;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-15s.dat;Clarke and wright + swap;1085.765;19528;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-15s.dat;Clarke and wright + relocate;1086.557;20510;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-15s.dat;Vecino mas cercano + swap + relocate;1356.969;727;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076A10r.dat;Vecino más cercano;2856.574;469;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076A10r.dat;Clarke and Wright;1656.971;18658;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076A10r.dat;Vecino mas cercano + swap;2805.469;596;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076A10r.dat;Vecino mas cercano + relocate;2728.776;556;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076A10r.dat;Clarke and wright + swap;1656.971;19707;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076A10r.dat;Clarke and wright + relocate;1656.509;19397;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076A10r.dat;Vecino mas cercano + swap + relocate;2678.451;581;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076B09r.dat;Vecino más cercano;2262.944;384;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076B09r.dat;Clarke and Wright;1358.232;20633;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076B09r.dat;Vecino mas cercano + swap;2248.008;508;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076B09r.dat;Vecino mas cercano + relocate;2080.780;836;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076B09r.dat;Clarke and wright + swap;1358.232;19618;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076B09r.dat;Clarke and wright + relocate;1358.230;19049;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076B09r.dat;Vecino mas cercano + swap + relocate;2125.391;534;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076C09r.dat;Vecino más cercano;2215.475;390;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076C09r.dat;Clarke and Wright;1401.463;19102;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076C09r.dat;Vecino mas cercano + swap;2195.595;557;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076C09r.dat;Vecino mas cercano + relocate;2094.267;494;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076C09r.dat;Clarke and wright + swap;1401.453;19259;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076C09r.dat;Clarke and wright + relocate;1400.861;22118;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076C09r.dat;Vecino mas cercano + swap + relocate;2114.637;700;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076D09r.dat;Vecino más cercano;2214.109;405;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076D09r.dat;Clarke and Wright;1422.403;20114;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076D09r.dat;Vecino mas cercano + swap;2055.865;686;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076D09r.dat;Vecino mas cercano + relocate;2159.141;648;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076D09r.dat;Clarke and wright + swap;1422.403;21488;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076D09r.dat;Clarke and wright + relocate;1421.666;19804;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076D09r.dat;Vecino mas cercano + swap + relocate;2000.897;706;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-08e.dat;Vecino más cercano;1174.361;708;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-08e.dat;Clarke and Wright;890.720;55644;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-08e.dat;Vecino mas cercano + swap;1165.001;879;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-08e.dat;Vecino mas cercano + relocate;1144.021;737;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-08e.dat;Clarke and wright + swap;890.720;59328;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-08e.dat;Clarke and wright + relocate;890.720;60848;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-08e.dat;Vecino mas cercano + swap + relocate;1134.661;887;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-10c.dat;Vecino más cercano;1311.500;700;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-10c.dat;Clarke and Wright;829.869;56408;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-10c.dat;Vecino mas cercano + swap;1270.637;1064;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-10c.dat;Vecino mas cercano + relocate;1242.494;718;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-10c.dat;Clarke and wright + swap;829.869;56425;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-10c.dat;Clarke and wright + relocate;828.011;56396;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-10c.dat;Vecino mas cercano + swap + relocate;1201.631;994;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14s.dat;Vecino más cercano;1610.907;737;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14s.dat;Clarke and Wright;1151.143;56028;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14s.dat;Vecino mas cercano + swap;1582.252;933;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14s.dat;Vecino mas cercano + relocate;1562.912;776;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14s.dat;Clarke and wright + swap;1150.668;58504;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14s.dat;Clarke and wright + relocate;1150.241;56331;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14s.dat;Vecino mas cercano + swap + relocate;1534.016;1038;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14u.dat;Vecino más cercano;1610.907;780;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14u.dat;Clarke and Wright;1151.143;58863;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14u.dat;Vecino mas cercano + swap;1582.252;1008;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14u.dat;Vecino mas cercano + relocate;1562.912;821;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14u.dat;Clarke and wright + swap;1150.668;63649;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14u.dat;Clarke and wright + relocate;1150.241;57551;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14u.dat;Vecino mas cercano + swap + relocate;1534.016;974;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101A11r.dat;Vecino más cercano;3437.595;707;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101A11r.dat;Clarke and Wright;2160.203;57596;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101A11r.dat;Vecino mas cercano + swap;3392.229;868;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101A11r.dat;Vecino mas cercano + relocate;3354.097;903;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101A11r.dat;Clarke and wright + swap;2160.203;61381;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101A11r.dat;Clarke and wright + relocate;2159.744;61873;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101A11r.dat;Vecino mas cercano + swap + relocate;3340.375;985;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101B11r.dat;Vecino más cercano;3321.379;847;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101B11r.dat;Clarke and Wright;1997.946;68365;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101B11r.dat;Vecino mas cercano + swap;3217.790;913;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101B11r.dat;Vecino mas cercano + relocate;3197.000;847;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101B11r.dat;Clarke and wright + swap;1996.693;72012;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101B11r.dat;Clarke and wright + relocate;1994.170;62825;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101B11r.dat;Vecino mas cercano + swap + relocate;3093.929;1064;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101C11r.dat;Vecino más cercano;2916.300;773;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101C11r.dat;Clarke and Wright;1446.372;61378;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101C11r.dat;Vecino mas cercano + swap;2847.541;935;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101C11r.dat;Vecino mas cercano + relocate;2790.332;879;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101C11r.dat;Clarke and wright + swap;1445.600;59186;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101C11r.dat;Clarke and wright + relocate;1445.575;57983;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101C11r.dat;Vecino mas cercano + swap + relocate;2721.573;1048;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101D11r.dat;Vecino más cercano;2879.227;701;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101D11r.dat;Clarke and Wright;1694.035;56868;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101D11r.dat;Vecino mas cercano + swap;2804.367;1103;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101D11r.dat;Vecino mas cercano + relocate;2734.406;916;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101D11r.dat;Clarke and wright + swap;1692.810;59673;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101D11r.dat;Clarke and wright + relocate;1692.980;61797;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101D11r.dat;Vecino mas cercano + swap + relocate;2672.353;1019;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E121-07c.dat;Vecino más cercano;1565.335;1123;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E121-07c.dat;Clarke and Wright;1075.840;115376;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E121-07c.dat;Vecino mas cercano + swap;1557.438;1355;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E121-07c.dat;Vecino mas cercano + relocate;1512.388;1026;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E121-07c.dat;Clarke and wright + swap;1075.840;116483;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E121-07c.dat;Clarke and wright + relocate;1075.840;110937;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E121-07c.dat;Vecino mas cercano + swap + relocate;1504.492;1337;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E135-07f.dat;Vecino más cercano;1784.336;1282;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E135-07f.dat;Clarke and Wright;1198.189;171650;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E135-07f.dat;Vecino mas cercano + swap;1784.059;1490;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E135-07f.dat;Vecino mas cercano + relocate;1736.089;1366;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E135-07f.dat;Clarke and wright + swap;1198.189;172710;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E135-07f.dat;Clarke and wright + relocate;1197.534;173995;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E135-07f.dat;Vecino mas cercano + swap + relocate;1735.812;1654;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12b.dat;Vecino más cercano;1426.230;1737;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12b.dat;Clarke and Wright;1146.316;271767;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12b.dat;Vecino mas cercano + swap;1426.176;1980;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12b.dat;Vecino mas cercano + relocate;1386.223;1667;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12b.dat;Clarke and wright + swap;1145.746;287500;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12b.dat;Clarke and wright + relocate;1146.316;283125;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12b.dat;Vecino mas cercano + swap + relocate;1386.168;2076;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12c.dat;Vecino más cercano;1429.424;1736;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12c.dat;Clarke and Wright;1162.758;269896;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12c.dat;Vecino mas cercano + swap;1424.943;1941;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12c.dat;Vecino mas cercano + relocate;1389.416;1572;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12c.dat;Clarke and wright + swap;1162.084;276206;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12c.dat;Clarke and wright + relocate;1162.758;285593;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12c.dat;Vecino mas cercano + swap + relocate;1384.935;2119;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151A15r.dat;Vecino más cercano;4902.374;1841;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151A15r.dat;Clarke and Wright;3299.747;266624;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151A15r.dat;Vecino mas cercano + swap;4790.198;1916;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151A15r.dat;Vecino mas cercano + relocate;4776.036;1645;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151A15r.dat;Clarke and wright + swap;3294.351;281555;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151A15r.dat;Clarke and wright + relocate;3296.359;255695;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151A15r.dat;Vecino mas cercano + swap + relocate;4663.860;2046;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151B14r.dat;Vecino más cercano;4384.566;1667;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151B14r.dat;Clarke and Wright;2883.471;264845;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151B14r.dat;Vecino mas cercano + swap;4311.939;1882;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151B14r.dat;Vecino mas cercano + relocate;4199.355;1647;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151B14r.dat;Clarke and wright + swap;2881.298;263693;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151B14r.dat;Clarke and wright + relocate;2878.375;263137;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151B14r.dat;Vecino mas cercano + swap + relocate;4127.963;1986;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151C14r.dat;Vecino más cercano;4367.582;1486;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151C14r.dat;Clarke and Wright;2448.486;280931;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151C14r.dat;Vecino mas cercano + swap;4347.500;2394;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151C14r.dat;Vecino mas cercano + relocate;4223.449;1742;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151C14r.dat;Clarke and wright + swap;2445.174;272274;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151C14r.dat;Clarke and wright + relocate;2441.305;265482;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151C14r.dat;Vecino mas cercano + swap + relocate;4205.131;2002;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151D14r.dat;Vecino más cercano;4964.531;1917;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151D14r.dat;Clarke and Wright;2790.844;274981;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151D14r.dat;Vecino mas cercano + swap;4751.580;1854;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151D14r.dat;Vecino mas cercano + relocate;4723.536;1631;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151D14r.dat;Clarke and wright + swap;2790.629;271848;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151D14r.dat;Clarke and wright + relocate;2789.040;272633;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151D14r.dat;Vecino mas cercano + swap + relocate;4500.751;2124;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16b.dat;Vecino más cercano;1934.537;3154;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16b.dat;Clarke and Wright;1410.143;877229;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16b.dat;Vecino mas cercano + swap;1908.993;3653;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16b.dat;Vecino mas cercano + relocate;1869.383;2874;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16b.dat;Clarke and wright + swap;1409.304;860437;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16b.dat;Clarke and wright + relocate;1409.728;884141;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16b.dat;Vecino mas cercano + swap + relocate;1844.252;3616;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16c.dat;Vecino más cercano;1746.943;2846;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16c.dat;Clarke and Wright;1404.468;853829;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16c.dat;Vecino mas cercano + swap;1739.443;3808;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16c.dat;Vecino mas cercano + relocate;1700.230;3044;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16c.dat;Clarke and wright + swap;1402.729;881561;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16c.dat;Clarke and wright + relocate;1402.971;883642;Restricción relajada
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16c.dat;Vecino mas cercano + swap + relocate;1696.173;4042;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17b.dat;Vecino más cercano;2034.397;3188;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17b.dat;Clarke and Wright;1410.143;899373;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17b.dat;Vecino mas cercano + swap;2008.853;3809;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17b.dat;Vecino mas cercano + relocate;1969.243;3209;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17b.dat;Clarke and wright + swap;1409.304;868520;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17b.dat;Clarke and wright + relocate;1409.728;907507;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17b.dat;Vecino mas cercano + swap + relocate;1944.112;4077;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17c.dat;Vecino más cercano;1829.333;3271;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17c.dat;Clarke and Wright;1404.468;903751;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17c.dat;Vecino mas cercano + swap;1813.758;3894;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17c.dat;Vecino mas cercano + relocate;1782.619;3147;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17c.dat;Clarke and wright + swap;1402.729;927931;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17c.dat;Clarke and wright + relocate;1402.971;915418;
-/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17c.dat;Vecino mas cercano + swap + relocate;1767.044;4192;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E048-04y.dat;Vecino mas cercano + relocate;50566.574;184;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E048-04y.dat;Clarke and wright + swap;43335.446;3402;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E048-04y.dat;Clarke and wright + relocate;43477.378;3442;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E048-04y.dat;Vecino mas cercano + swap + relocate;50529.101;401;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E051-05e.dat;Vecino más cercano;711.499;183;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E051-05e.dat;Clarke and Wright;584.637;4317;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E051-05e.dat;Vecino mas cercano + swap;711.499;283;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E051-05e.dat;Vecino mas cercano + relocate;672.565;217;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E051-05e.dat;Clarke and wright + swap;584.637;4720;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E051-05e.dat;Clarke and wright + relocate;583.787;4466;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E051-05e.dat;Vecino mas cercano + swap + relocate;672.565;280;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E072-04f.dat;Vecino más cercano;368.267;378;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E072-04f.dat;Clarke and Wright;257.796;15874;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E072-04f.dat;Vecino mas cercano + swap;368.267;419;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E072-04f.dat;Vecino mas cercano + relocate;360.185;445;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E072-04f.dat;Clarke and wright + swap;257.796;17234;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E072-04f.dat;Clarke and wright + relocate;257.730;16719;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E072-04f.dat;Vecino mas cercano + swap + relocate;360.185;517;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07s.dat;Vecino más cercano;1070.190;437;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07s.dat;Clarke and Wright;752.792;18379;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07s.dat;Vecino mas cercano + swap;1035.895;561;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07s.dat;Vecino mas cercano + relocate;991.127;423;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07s.dat;Clarke and wright + swap;749.913;18912;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07s.dat;Clarke and wright + relocate;751.035;19168;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07s.dat;Vecino mas cercano + swap + relocate;956.832;597;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07u.dat;Vecino más cercano;1070.190;414;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07u.dat;Clarke and Wright;752.792;18558;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07u.dat;Vecino mas cercano + swap;1035.895;547;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07u.dat;Vecino mas cercano + relocate;991.127;444;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07u.dat;Clarke and wright + swap;749.913;19257;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07u.dat;Clarke and wright + relocate;751.035;18933;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-07u.dat;Vecino mas cercano + swap + relocate;956.832;583;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08s.dat;Vecino más cercano;1149.405;392;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08s.dat;Clarke and Wright;799.249;18810;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08s.dat;Vecino mas cercano + swap;1125.296;547;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08s.dat;Vecino mas cercano + relocate;1079.294;399;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08s.dat;Clarke and wright + swap;792.771;18961;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08s.dat;Clarke and wright + relocate;799.249;18570;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08s.dat;Vecino mas cercano + swap + relocate;1055.185;555;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08u.dat;Vecino más cercano;1149.405;468;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08u.dat;Clarke and Wright;799.249;19172;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08u.dat;Vecino mas cercano + swap;1125.296;542;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08u.dat;Vecino mas cercano + relocate;1079.294;466;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08u.dat;Clarke and wright + swap;792.771;18714;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08u.dat;Clarke and wright + relocate;799.249;19119;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-08u.dat;Vecino mas cercano + swap + relocate;1055.185;547;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-10e.dat;Vecino más cercano;1205.848;426;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-10e.dat;Clarke and Wright;878.991;19960;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-10e.dat;Vecino mas cercano + swap;1184.557;569;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-10e.dat;Vecino mas cercano + relocate;1168.301;464;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-10e.dat;Clarke and wright + swap;878.991;19563;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-10e.dat;Clarke and wright + relocate;878.991;19477;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-10e.dat;Vecino mas cercano + swap + relocate;1147.010;727;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14s.dat;Vecino más cercano;1372.637;489;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14s.dat;Clarke and Wright;1086.557;20863;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14s.dat;Vecino mas cercano + swap;1346.353;671;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14s.dat;Vecino mas cercano + relocate;1304.414;565;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14s.dat;Clarke and wright + swap;1085.765;19846;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14s.dat;Clarke and wright + relocate;1086.557;18750;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14s.dat;Vecino mas cercano + swap + relocate;1282.753;645;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14u.dat;Vecino más cercano;1372.637;452;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14u.dat;Clarke and Wright;1086.557;19371;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14u.dat;Vecino mas cercano + swap;1346.353;640;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14u.dat;Vecino mas cercano + relocate;1304.414;482;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14u.dat;Clarke and wright + swap;1085.765;19091;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14u.dat;Clarke and wright + relocate;1086.557;18793;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-14u.dat;Vecino mas cercano + swap + relocate;1282.753;644;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-15s.dat;Vecino más cercano;1446.853;463;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-15s.dat;Clarke and Wright;1086.557;18799;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-15s.dat;Vecino mas cercano + swap;1420.569;634;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-15s.dat;Vecino mas cercano + relocate;1378.630;526;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-15s.dat;Clarke and wright + swap;1085.765;19076;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-15s.dat;Clarke and wright + relocate;1086.557;19273;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076-15s.dat;Vecino mas cercano + swap + relocate;1356.969;688;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076A10r.dat;Vecino más cercano;2856.574;402;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076A10r.dat;Clarke and Wright;1656.971;19382;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076A10r.dat;Vecino mas cercano + swap;2805.469;504;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076A10r.dat;Vecino mas cercano + relocate;2728.776;492;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076A10r.dat;Clarke and wright + swap;1656.971;19433;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076A10r.dat;Clarke and wright + relocate;1656.509;21529;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076A10r.dat;Vecino mas cercano + swap + relocate;2678.451;640;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076B09r.dat;Vecino más cercano;2262.944;432;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076B09r.dat;Clarke and Wright;1358.232;20612;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076B09r.dat;Vecino mas cercano + swap;2248.008;481;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076B09r.dat;Vecino mas cercano + relocate;2080.780;458;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076B09r.dat;Clarke and wright + swap;1358.232;21328;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076B09r.dat;Clarke and wright + relocate;1358.230;20500;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076B09r.dat;Vecino mas cercano + swap + relocate;2125.391;607;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076C09r.dat;Vecino más cercano;2215.475;477;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076C09r.dat;Clarke and Wright;1401.463;21495;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076C09r.dat;Vecino mas cercano + swap;2195.595;526;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076C09r.dat;Vecino mas cercano + relocate;2094.267;463;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076C09r.dat;Clarke and wright + swap;1401.453;19418;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076C09r.dat;Clarke and wright + relocate;1400.861;18846;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076C09r.dat;Vecino mas cercano + swap + relocate;2114.637;593;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076D09r.dat;Vecino más cercano;2214.109;413;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076D09r.dat;Clarke and Wright;1422.403;18392;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076D09r.dat;Vecino mas cercano + swap;2055.865;511;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076D09r.dat;Vecino mas cercano + relocate;2159.141;450;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076D09r.dat;Clarke and wright + swap;1422.403;18699;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076D09r.dat;Clarke and wright + relocate;1421.666;18530;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E076D09r.dat;Vecino mas cercano + swap + relocate;2000.897;561;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-08e.dat;Vecino más cercano;1174.361;672;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-08e.dat;Clarke and Wright;890.720;58203;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-08e.dat;Vecino mas cercano + swap;1165.001;987;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-08e.dat;Vecino mas cercano + relocate;1144.021;795;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-08e.dat;Clarke and wright + swap;890.720;56976;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-08e.dat;Clarke and wright + relocate;890.720;57291;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-08e.dat;Vecino mas cercano + swap + relocate;1134.661;898;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-10c.dat;Vecino más cercano;1311.500;655;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-10c.dat;Clarke and Wright;829.869;56369;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-10c.dat;Vecino mas cercano + swap;1270.637;962;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-10c.dat;Vecino mas cercano + relocate;1242.494;701;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-10c.dat;Clarke and wright + swap;829.869;60265;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-10c.dat;Clarke and wright + relocate;828.011;59261;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-10c.dat;Vecino mas cercano + swap + relocate;1201.631;1092;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14s.dat;Vecino más cercano;1610.907;760;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14s.dat;Clarke and Wright;1151.143;59464;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14s.dat;Vecino mas cercano + swap;1582.252;935;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14s.dat;Vecino mas cercano + relocate;1562.912;822;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14s.dat;Clarke and wright + swap;1150.668;56691;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14s.dat;Clarke and wright + relocate;1150.241;57081;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14s.dat;Vecino mas cercano + swap + relocate;1534.016;1005;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14u.dat;Vecino más cercano;1610.907;729;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14u.dat;Clarke and Wright;1151.143;56974;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14u.dat;Vecino mas cercano + swap;1582.252;984;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14u.dat;Vecino mas cercano + relocate;1562.912;818;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14u.dat;Clarke and wright + swap;1150.668;56400;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14u.dat;Clarke and wright + relocate;1150.241;57163;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101-14u.dat;Vecino mas cercano + swap + relocate;1534.016;1016;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101A11r.dat;Vecino más cercano;3437.595;710;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101A11r.dat;Clarke and Wright;2160.203;54017;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101A11r.dat;Vecino mas cercano + swap;3392.229;850;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101A11r.dat;Vecino mas cercano + relocate;3354.097;981;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101A11r.dat;Clarke and wright + swap;2160.203;62195;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101A11r.dat;Clarke and wright + relocate;2159.744;62294;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101A11r.dat;Vecino mas cercano + swap + relocate;3340.375;1043;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101B11r.dat;Vecino más cercano;3321.379;700;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101B11r.dat;Clarke and Wright;1997.946;57588;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101B11r.dat;Vecino mas cercano + swap;3217.790;843;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101B11r.dat;Vecino mas cercano + relocate;3197.000;795;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101B11r.dat;Clarke and wright + swap;1996.693;62112;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101B11r.dat;Clarke and wright + relocate;1994.170;55583;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101B11r.dat;Vecino mas cercano + swap + relocate;3093.929;1016;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101C11r.dat;Vecino más cercano;2916.300;757;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101C11r.dat;Clarke and Wright;1446.372;61224;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101C11r.dat;Vecino mas cercano + swap;2847.541;838;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101C11r.dat;Vecino mas cercano + relocate;2790.332;812;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101C11r.dat;Clarke and wright + swap;1445.600;57658;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101C11r.dat;Clarke and wright + relocate;1445.575;59590;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101C11r.dat;Vecino mas cercano + swap + relocate;2721.573;1037;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101D11r.dat;Vecino más cercano;2879.227;697;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101D11r.dat;Clarke and Wright;1694.035;63829;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101D11r.dat;Vecino mas cercano + swap;2804.367;890;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101D11r.dat;Vecino mas cercano + relocate;2734.406;831;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101D11r.dat;Clarke and wright + swap;1692.810;56491;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101D11r.dat;Clarke and wright + relocate;1692.980;54115;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E101D11r.dat;Vecino mas cercano + swap + relocate;2672.353;918;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E121-07c.dat;Vecino más cercano;1565.335;902;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E121-07c.dat;Clarke and Wright;1075.840;113316;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E121-07c.dat;Vecino mas cercano + swap;1557.438;1318;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E121-07c.dat;Vecino mas cercano + relocate;1512.388;1107;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E121-07c.dat;Clarke and wright + swap;1075.840;111216;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E121-07c.dat;Clarke and wright + relocate;1075.840;120808;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E121-07c.dat;Vecino mas cercano + swap + relocate;1504.492;1751;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E135-07f.dat;Vecino más cercano;1784.336;1356;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E135-07f.dat;Clarke and Wright;1198.189;184373;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E135-07f.dat;Vecino mas cercano + swap;1784.059;1449;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E135-07f.dat;Vecino mas cercano + relocate;1736.089;1361;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E135-07f.dat;Clarke and wright + swap;1198.189;179836;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E135-07f.dat;Clarke and wright + relocate;1197.534;188893;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E135-07f.dat;Vecino mas cercano + swap + relocate;1735.812;1696;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12b.dat;Vecino más cercano;1426.230;1499;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12b.dat;Clarke and Wright;1146.316;282990;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12b.dat;Vecino mas cercano + swap;1426.176;2047;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12b.dat;Vecino mas cercano + relocate;1386.223;1750;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12b.dat;Clarke and wright + swap;1145.746;278082;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12b.dat;Clarke and wright + relocate;1146.316;269054;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12b.dat;Vecino mas cercano + swap + relocate;1386.168;2134;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12c.dat;Vecino más cercano;1429.424;1532;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12c.dat;Clarke and Wright;1162.758;302326;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12c.dat;Vecino mas cercano + swap;1424.943;1965;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12c.dat;Vecino mas cercano + relocate;1389.416;1633;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12c.dat;Clarke and wright + swap;1162.084;269239;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12c.dat;Clarke and wright + relocate;1162.758;269757;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151-12c.dat;Vecino mas cercano + swap + relocate;1384.935;2013;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151A15r.dat;Vecino más cercano;4902.374;1492;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151A15r.dat;Clarke and Wright;3299.747;272650;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151A15r.dat;Vecino mas cercano + swap;4790.198;1908;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151A15r.dat;Vecino mas cercano + relocate;4776.036;1597;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151A15r.dat;Clarke and wright + swap;3294.351;280181;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151A15r.dat;Clarke and wright + relocate;3296.359;266812;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151A15r.dat;Vecino mas cercano + swap + relocate;4663.860;1945;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151B14r.dat;Vecino más cercano;4384.566;1661;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151B14r.dat;Clarke and Wright;2883.471;282475;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151B14r.dat;Vecino mas cercano + swap;4311.939;1843;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151B14r.dat;Vecino mas cercano + relocate;4199.355;1696;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151B14r.dat;Clarke and wright + swap;2881.298;275534;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151B14r.dat;Clarke and wright + relocate;2878.375;282301;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151B14r.dat;Vecino mas cercano + swap + relocate;4127.963;2063;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151C14r.dat;Vecino más cercano;4367.582;1561;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151C14r.dat;Clarke and Wright;2448.486;290720;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151C14r.dat;Vecino mas cercano + swap;4347.500;1856;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151C14r.dat;Vecino mas cercano + relocate;4223.449;1599;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151C14r.dat;Clarke and wright + swap;2445.174;280174;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151C14r.dat;Clarke and wright + relocate;2441.305;270729;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151C14r.dat;Vecino mas cercano + swap + relocate;4205.131;1998;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151D14r.dat;Vecino más cercano;4964.531;1634;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151D14r.dat;Clarke and Wright;2790.844;271647;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151D14r.dat;Vecino mas cercano + swap;4751.580;2059;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151D14r.dat;Vecino mas cercano + relocate;4723.536;1830;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151D14r.dat;Clarke and wright + swap;2790.629;259821;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151D14r.dat;Clarke and wright + relocate;2789.040;272975;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E151D14r.dat;Vecino mas cercano + swap + relocate;4500.751;1941;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16b.dat;Vecino más cercano;1934.537;2660;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16b.dat;Clarke and Wright;1410.143;862723;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16b.dat;Vecino mas cercano + swap;1908.993;3706;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16b.dat;Vecino mas cercano + relocate;1869.383;2780;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16b.dat;Clarke and wright + swap;1409.304;878360;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16b.dat;Clarke and wright + relocate;1409.728;908764;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16b.dat;Vecino mas cercano + swap + relocate;1844.252;3823;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16c.dat;Vecino más cercano;1746.943;2917;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16c.dat;Clarke and Wright;1404.468;861551;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16c.dat;Vecino mas cercano + swap;1739.443;3852;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16c.dat;Vecino mas cercano + relocate;1700.230;2954;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16c.dat;Clarke and wright + swap;1402.729;886554;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16c.dat;Clarke and wright + relocate;1402.971;858427;Restricción relajada
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-16c.dat;Vecino mas cercano + swap + relocate;1696.173;3592;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17b.dat;Vecino más cercano;2034.397;2600;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17b.dat;Clarke and Wright;1410.143;885990;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17b.dat;Vecino mas cercano + swap;2008.853;3479;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17b.dat;Vecino mas cercano + relocate;1969.243;2798;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17b.dat;Clarke and wright + swap;1409.304;896825;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17b.dat;Clarke and wright + relocate;1409.728;868548;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17b.dat;Vecino mas cercano + swap + relocate;1944.112;3751;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17c.dat;Vecino más cercano;1829.333;2864;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17c.dat;Clarke and Wright;1404.468;872549;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17c.dat;Vecino mas cercano + swap;1813.758;3770;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17c.dat;Vecino mas cercano + relocate;1782.619;3163;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17c.dat;Clarke and wright + swap;1402.729;933550;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17c.dat;Clarke and wright + relocate;1402.971;910573;
+/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E200-17c.dat;Vecino mas cercano + swap + relocate;1767.044;4106;

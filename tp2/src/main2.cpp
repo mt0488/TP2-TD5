@@ -77,7 +77,6 @@ int main(){
     for(int i=0;i<instancias.size();i++){
     try {
             ofstream out("resultados.csv", ios::app);
-            out.imbue(locale::classic()); 
             out << fixed << setprecision(3);
             VRPLIBReader instance(instancias[i]);
 
