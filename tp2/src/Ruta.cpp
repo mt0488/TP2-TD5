@@ -42,7 +42,7 @@ void Ruta::invertir_ruta(){
 
 void Ruta::fusionar(Ruta r, double c){
     _demanda += r._demanda;
-    _costo = _costo + r._costo + c ; //Costo ruta1+costo ruta 2 - ahorro
+    _costo = _costo + r._costo - c ; //Costo ruta1+costo ruta 2 - ahorro
     ids.pop_back(); // El deposito era el ultimo nodo
     r.ids.erase(r.ids.begin()); // El deposito es el primer nodo
     ids.insert(ids.end(),r.ids.begin(),r.ids.end());

@@ -59,12 +59,12 @@ Solucion CAW::resolver(const VRPLIBReader & instance ){
             Ruta& rj = rutas_iniciales[id_j];
 
             if(ri.demanda()+rj.demanda()<=capacidad){
-                double dij = -_ahorros[k];
+                double dij = _ahorros[k];
                 
                 if(ri.ruta()[1]==i && rj.ruta()[1] ==j){
-                    rj.invertir_ruta();
-                    rj.fusionar(ri,dij);
-                    rutas_iniciales.erase(rutas_iniciales.begin() + id_i);
+                    ri.invertir_ruta();
+                    ri.fusionar(rj,dij);
+                    rutas_iniciales.erase(rutas_iniciales.begin() + id_j);
                 }else if(ri.ruta()[1]!=i && rj.ruta()[1] ==j){
                     ri.fusionar(rj,dij);
                     rutas_iniciales.erase(rutas_iniciales.begin() + id_j);
@@ -73,7 +73,6 @@ Solucion CAW::resolver(const VRPLIBReader & instance ){
                     ri.fusionar(rj,dij);
                     rutas_iniciales.erase(rutas_iniciales.begin() + id_j);
                 }else if(ri.ruta()[1]==i && rj.ruta()[1] !=j){
-                    ri.invertir_ruta();
                     rj.fusionar(ri,dij);
                     rutas_iniciales.erase(rutas_iniciales.begin() + id_i);
                 }
