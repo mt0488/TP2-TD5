@@ -7,13 +7,13 @@ class Solucion{
     public:
         Solucion();
         void añadirRuta(Ruta r);
-        int costo();
+        double costo();
         void printSolucion();
         vector<Ruta>& rutas();
         void recalcularCosto();
     private:
         vector<Ruta> _rutas;
-        int _costo;
+        double _costo;
 
 };
 

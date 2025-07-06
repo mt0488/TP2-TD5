@@ -4,7 +4,12 @@
 #include "relocate.h"
 #include "GRASP.h"
 #include <iostream>
+#include <fstream>
+#include <chrono>
+#include <sstream>
+#include <iomanip> 
 using namespace std;
+using namespace std::chrono;
 
 vector<string> instancias = {
     "/workspaces/TP2-TD5/tp2/instancias/2l-cvrp-0/E016-03m.dat",
@@ -64,15 +69,112 @@ vector<string> instancias = {
 
 
 int main(){
+    ofstream header("resultados.csv", ios::trunc);
+    
+    header << "Instancia;Algoritmo;Costo;Tiempo(ms);Relax\n";
+    header.close();
 
     for(int i=0;i<instancias.size();i++){
-    VRPLIBReader instance(instancias[i]);
+    try {
+            ofstream out("resultados.csv", ios::app);
+            out.imbue(locale::classic()); 
+            out << fixed << setprecision(3);
+            VRPLIBReader instance(instancias[i]);
 
-    CAW test;
-    Solucion s = test.resolver(instance);
-    cout<<instancias[i]<<endl;
-    s.printSolucion();
-    cout<<endl;
+            //Vecino mas cercano
+            VMC vmc;
+            auto startVMC = high_resolution_clock::now();
+            Solucion solVMC = vmc.resolver(instance);
+            auto endVMC = high_resolution_clock::now();
+            auto tiempoVMC = duration_cast<microseconds>(endVMC - startVMC);
+
+            double costovmc = solVMC.costo();
+           
+
+            out <<instancias[i] << ";Vecino más cercano;" << costovmc << ";" <<  tiempoVMC.count() << ";"  << "\n";
+
+            //Clarke and Wright
+            
+            CAW caw;
+            auto startcaw = high_resolution_clock::now();
+            Solucion solcaw = caw.resolver(instance);
+            auto endcaw = high_resolution_clock::now();
+            auto tiempocaw = duration_cast<microseconds>(endcaw - startcaw);
+            string relax="";
+            double costocaw = solcaw.costo();
+            if(solcaw.rutas().size()>instance.getNumVehicles()) relax = "Restricción relajada";
+            out << instancias[i] << ";Clarke and Wright;" << costocaw << ";" << tiempocaw.count() << ";" << relax<< "\n";
+
+            //Vecino mas cercano + swap
+            VMC vmcSwap;
+            auto startvmcswap = high_resolution_clock::now();
+            Solucion solvmcswap = vmcSwap.resolver(instance);
+            swapRutas(solvmcswap,instance);
+            auto endvmcswap = high_resolution_clock::now();
+            auto tiempovmcswap = duration_cast<microseconds>(endvmcswap - startvmcswap);
+
+            double costovmcSwap = solvmcswap.costo();
+
+            out << instancias[i] << ";Vecino mas cercano + swap;" << costovmcSwap << ";"  << tiempovmcswap.count() << ";" << "\n";
+
+            //Vecino mas cercano + relocate
+            VMC vmcrel;
+            auto startvmcrel = high_resolution_clock::now();
+            Solucion solvmcrel = vmcrel.resolver(instance);
+            relocate(solvmcrel,instance);
+            auto endvmcrel = high_resolution_clock::now();
+            auto tiempovmcrel = duration_cast<microseconds>(endvmcrel - startvmcrel);
+
+            double costovmcrel = solvmcrel.costo();
+
+            out << instancias[i] << ";Vecino mas cercano + relocate;" << costovmcrel << ";"  << tiempovmcrel.count() << ";" << "\n";
+
+            //Clarke and Wright + swap
+            CAW cawSwap;
+            auto startcawswap = high_resolution_clock::now();
+            Solucion solcawswap = cawSwap.resolver(instance);
+            swapRutas(solcawswap,instance);
+            auto endcawswap = high_resolution_clock::now();
+            auto tiempocawswap = duration_cast<microseconds>(endcawswap - startcawswap);
+
+            double costocawSwap = solcawswap.costo();
+            relax="";
+            if(solcawswap.rutas().size()>instance.getNumVehicles()) relax = "Restricción relajada";
+            out << instancias[i] << ";Clarke and wright + swap;" << costocawSwap << ";"  << tiempocawswap.count() << ";" << relax << "\n";
+
+            //Clarke and Wright + relocate
+            CAW cawrel;
+            auto startcawrel = high_resolution_clock::now();
+            Solucion solcawrel = cawrel.resolver(instance);
+            relocate(solcawrel,instance);
+            auto endcawrel = high_resolution_clock::now();
+            auto tiempocawrel = duration_cast<microseconds>(endcawrel - startcawrel);
+
+            double costocawrel = solcawrel.costo();
+            relax="";
+            if(solcawrel.rutas().size()>instance.getNumVehicles()) relax = "Restricción relajada";
+            out << instancias[i] << ";Clarke and wright + relocate;" << costocawrel << ";"  << tiempocawrel.count() << ";" << relax << "\n";
+
+            //Vecino mas cercano + swap + relocate
+            VMC vmcall;
+            auto startvmcall = high_resolution_clock::now();
+            Solucion solvmcall = vmcall.resolver(instance);
+            swapRutas(solvmcall,instance);
+            relocate(solvmcall,instance);
+            auto endvmcall = high_resolution_clock::now();
+            auto tiempovmcall = duration_cast<microseconds>(endvmcall - startvmcall);
+
+            double costovmcall = solvmcall.costo();
+
+            out << instancias[i] << ";Vecino mas cercano + swap + relocate;" << costovmcall << ";"  << tiempovmcall.count() << ";" << "\n";
+
+            out.close();
+
+            cout << "Terminó: " << instancias[i] << endl;
+
+        } catch (exception& e) {
+            cerr << "Error con instancia: " << instancias[i] << " → " << e.what() << endl;
+        }
     }
     
     return 0;
