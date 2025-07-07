@@ -69,14 +69,14 @@ vector<string> instancias = {
 
 
 int main(){
-    ofstream header("resultados.csv", ios::trunc);
+    ofstream header("resultados_tiempos.csv", ios::trunc);
     
-    header << "Instancia;Algoritmo;Costo;Tiempo(ms);Relax\n";
+    header << "Instancia;Vecino más cercano;Clarke and Wright;Vecino más cercano + swap;Vecino más cercano + relocate;Clarke and Wright + swap;Clarke and Wright + relocate; Vecino más cercano + swap + relocate\n";
     header.close();
 
     for(int i=0;i<instancias.size();i++){
     try {
-            ofstream out("resultados.csv", ios::app);
+            ofstream out("resultados_tiempos.csv", ios::app);
             out << fixed << setprecision(3);
             VRPLIBReader instance(instancias[i]);
 
@@ -90,7 +90,7 @@ int main(){
             double costovmc = solVMC.costo();
            
 
-            out <<instancias[i] << ";Vecino más cercano;" << costovmc << ";" <<  tiempoVMC.count() << ";"  << "\n";
+            //out <<instancias[i] << ";Vecino más cercano;" << costovmc << ";" <<  tiempoVMC.count() << ";"  << "\n";
 
             //Clarke and Wright
             
@@ -102,7 +102,7 @@ int main(){
             string relax="";
             double costocaw = solcaw.costo();
             if(solcaw.rutas().size()>instance.getNumVehicles()) relax = "Restricción relajada";
-            out << instancias[i] << ";Clarke and Wright;" << costocaw << ";" << tiempocaw.count() << ";" << relax<< "\n";
+            //out << instancias[i] << ";Clarke and Wright;" << costocaw << ";" << tiempocaw.count() << ";" << relax<< "\n";
 
             //Vecino mas cercano + swap
             VMC vmcSwap;
@@ -114,7 +114,7 @@ int main(){
 
             double costovmcSwap = solvmcswap.costo();
 
-            out << instancias[i] << ";Vecino mas cercano + swap;" << costovmcSwap << ";"  << tiempovmcswap.count() << ";" << "\n";
+            //out << instancias[i] << ";Vecino mas cercano + swap;" << costovmcSwap << ";"  << tiempovmcswap.count() << ";" << "\n";
 
             //Vecino mas cercano + relocate
             VMC vmcrel;
@@ -126,7 +126,7 @@ int main(){
 
             double costovmcrel = solvmcrel.costo();
 
-            out << instancias[i] << ";Vecino mas cercano + relocate;" << costovmcrel << ";"  << tiempovmcrel.count() << ";" << "\n";
+            //out << instancias[i] << ";Vecino mas cercano + relocate;" << costovmcrel << ";"  << tiempovmcrel.count() << ";" << "\n";
 
             //Clarke and Wright + swap
             CAW cawSwap;
@@ -139,7 +139,7 @@ int main(){
             double costocawSwap = solcawswap.costo();
             relax="";
             if(solcawswap.rutas().size()>instance.getNumVehicles()) relax = "Restricción relajada";
-            out << instancias[i] << ";Clarke and wright + swap;" << costocawSwap << ";"  << tiempocawswap.count() << ";" << relax << "\n";
+            //out << instancias[i] << ";Clarke and wright + swap;" << costocawSwap << ";"  << tiempocawswap.count() << ";" << relax << "\n";
 
             //Clarke and Wright + relocate
             CAW cawrel;
@@ -152,7 +152,7 @@ int main(){
             double costocawrel = solcawrel.costo();
             relax="";
             if(solcawrel.rutas().size()>instance.getNumVehicles()) relax = "Restricción relajada";
-            out << instancias[i] << ";Clarke and wright + relocate;" << costocawrel << ";"  << tiempocawrel.count() << ";" << relax << "\n";
+           // out << instancias[i] << ";Clarke and wright + relocate;" << costocawrel << ";"  << tiempocawrel.count() << ";" << relax << "\n";
 
             //Vecino mas cercano + swap + relocate
             VMC vmcall;
@@ -165,7 +165,15 @@ int main(){
 
             double costovmcall = solvmcall.costo();
 
-            out << instancias[i] << ";Vecino mas cercano + swap + relocate;" << costovmcall << ";"  << tiempovmcall.count() << ";" << "\n";
+            //out << instancias[i] << ";Vecino mas cercano + swap + relocate;" << costovmcall << ";"  << tiempovmcall.count() << ";" << "\n";
+
+            string instancia="";
+            int j=45;
+            while(instancias[i][j]!='.'){
+                instancia.push_back(instancias[i][j]);
+                j++;
+            }
+            out<<instancia<<";"<<tiempoVMC.count()<<";"<<tiempocaw.count()<<";"<<tiempovmcswap.count()<<";"<<tiempovmcrel.count()<<";"<<tiempocawswap.count()<<";"<<tiempocawrel.count()<<";"<<tiempovmcall.count()<<"\n";
 
             out.close();
 
