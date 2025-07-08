@@ -83,28 +83,28 @@ int main(){
             //GRASP
             GRASP grasp10;
             Solucion sgrasp10=grasp10.resolver(4,10,instance);
-            for(int i=0;i<100;i++){
+            for(int i=0;i<1000;i++){
                 relocate(sgrasp10,instance);
             }
             double costog10=sgrasp10.costo();
 
             GRASP grasp100;
             Solucion sgrasp100=grasp100.resolver(4,100,instance);
-            for(int i=0;i<100;i++){
+            for(int i=0;i<1000;i++){
                 relocate(sgrasp100,instance);
             }
             double costog100=sgrasp100.costo();
 
             GRASP grasp1000;
             Solucion sgrasp1000=grasp1000.resolver(4,1000,instance);
-            for(int i=0;i<100;i++){
+            for(int i=0;i<1000;i++){
                 relocate(sgrasp1000,instance);
             }
             double costog1000=sgrasp1000.costo();
 
             GRASP grasp10000;
             Solucion sgrasp10000=grasp10000.resolver(4,10000,instance);
-            for(int i=0;i<100;i++){
+            for(int i=0;i<1000;i++){
                 relocate(sgrasp10000,instance);
             }
             double costog10000=sgrasp10000.costo();
