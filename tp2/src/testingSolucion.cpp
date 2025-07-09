@@ -45,5 +45,20 @@ int main(){
         cout<<"Añadir varias rutas ✓"<<endl;
     }
 
+    //Recalcular el costo
+    {
+        Ruta r1(instance); r1.agregarNodo(1,instance);r1.agregarNodo(2,instance); r1.agregarNodo(3,instance);r1.agregarNodo(1,instance);
+        Ruta r2(instance); r2.agregarNodo(1,instance);r2.agregarNodo(4,instance); r2.agregarNodo(5,instance);r2.agregarNodo(1,instance);
+        
+
+        Solucion s;
+        s.añadirRuta(r1);s.añadirRuta(r2);
+
+        s.rutas()[0].intercambiar(s.rutas()[1],1,2,instance); //Modificamos las rutas para evaluar el método
+        s.recalcularCosto();
+        assert(s.costo() == (s.rutas()[0].costo()+s.rutas()[1].costo()));
+        cout<<"Recalcular el costo ✓"<<endl;
+    }
+
     return 0;
 }
