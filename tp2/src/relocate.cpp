@@ -2,6 +2,7 @@
 using namespace std;
 
 void relocate(Solucion & s,const VRPLIBReader & instance){
+    Solucion s0 = s;
     double min=0.0;
     int i1, i2, ruta1, ruta2;
 
@@ -44,5 +45,8 @@ void relocate(Solucion & s,const VRPLIBReader & instance){
     if(min>0.0){
         rutas[ruta2].insertar(rutas[ruta1],i1,i2,instance);
         s.recalcularCosto();
+    }
+    if(s.costo()<s0.costo()){
+        relocate(s,instance);
     }    
 }

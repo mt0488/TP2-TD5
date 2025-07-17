@@ -173,7 +173,7 @@ int main(){
                 instancia.push_back(instancias[i][j]);
                 j++;
             }
-            out<<instancia<<";"<<tiempoVMC.count()<<";"<<tiempocaw.count()<<";"<<tiempovmcswap.count()<<";"<<tiempovmcrel.count()<<";"<<tiempocawswap.count()<<";"<<tiempocawrel.count()<<";"<<tiempovmcall.count()<<"\n";
+            out<<instancia<<";"<<costovmc<<";"<<costocaw<<";"<<costovmcSwap<<";"<<costovmcrel<<";"<<costocawSwap<<";"<<costocawrel<<";"<<costovmcall<<"\n";
 
             out.close();
 

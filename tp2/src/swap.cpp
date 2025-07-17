@@ -16,6 +16,7 @@ bool esSwapFactible(const Ruta& r1, const Ruta& r2, int idx1, int idx2, const VR
 }
 
 void swapRutas(Solucion & s,const VRPLIBReader & instance){
+    Solucion s0=s;
     int id1;
     int id2;
     int ruta1; int ruta2;
@@ -60,5 +61,8 @@ void swapRutas(Solucion & s,const VRPLIBReader & instance){
     if(min>0.0){
         r[ruta1].intercambiar(r[ruta2],id1,id2,instance);
         s.recalcularCosto();
+    }
+    if(s.costo()<s0.costo()){
+        swapRutas(s,instance);
     }
 }
