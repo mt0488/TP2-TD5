@@ -69,14 +69,14 @@ vector<string> instancias = {
 
 
 int main(){
-    ofstream header("resultados_tiempos.csv", ios::trunc);
+    ofstream header("resultados_tiempo.csv", ios::trunc);
     
     header << "Instancia;Vecino más cercano;Clarke and Wright;Vecino más cercano + swap;Vecino más cercano + relocate;Clarke and Wright + swap;Clarke and Wright + relocate; Vecino más cercano + swap + relocate\n";
     header.close();
 
     for(int i=0;i<instancias.size();i++){
     try {
-            ofstream out("resultados_tiempos.csv", ios::app);
+            ofstream out("resultados_tiempo.csv", ios::app);
             out << fixed << setprecision(3);
             VRPLIBReader instance(instancias[i]);
 
@@ -173,7 +173,7 @@ int main(){
                 instancia.push_back(instancias[i][j]);
                 j++;
             }
-            out<<instancia<<";"<<costovmc<<";"<<costocaw<<";"<<costovmcSwap<<";"<<costovmcrel<<";"<<costocawSwap<<";"<<costocawrel<<";"<<costovmcall<<"\n";
+            out<<instancia<<";"<<tiempoVMC.count()<<";"<<tiempocaw.count()<<";"<<tiempovmcswap.count()<<";"<<tiempovmcrel.count()<<";"<<tiempocawswap.count()<<";"<<tiempocawrel.count()<<";"<<tiempovmcall.count()<<"\n";
 
             out.close();
 
