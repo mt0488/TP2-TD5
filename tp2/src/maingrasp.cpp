@@ -69,14 +69,14 @@ vector<string> instancias = {
 
 
 int main(){
-    ofstream header("resultados_grasp.csv", ios::trunc);
+    ofstream header("resultados_grasprel.csv", ios::trunc);
     
     header << "Instancia;Grasp 10;Grasp 100;Grasp 1000; Grasp 10000\n";
     header.close();
 
     for(int i=0;i<instancias.size();i++){
     try {
-            ofstream out("resultados_grasp.csv", ios::app);
+            ofstream out("resultados_grasprel.csv", ios::app);
             out << fixed << setprecision(3);
             VRPLIBReader instance(instancias[i]);
 
@@ -84,28 +84,28 @@ int main(){
             GRASP grasp10;
             Solucion sgrasp10=grasp10.resolver(4,10,instance);
             
-            // relocate(sgrasp10,instance);
+             relocate(sgrasp10,instance);
             
             double costog10=sgrasp10.costo();
 
             GRASP grasp100;
             Solucion sgrasp100=grasp100.resolver(4,100,instance);
             
-            // relocate(sgrasp100,instance);
+             relocate(sgrasp100,instance);
             
             double costog100=sgrasp100.costo();
 
             GRASP grasp1000;
             Solucion sgrasp1000=grasp1000.resolver(4,1000,instance);
             
-            // relocate(sgrasp1000,instance);
+             relocate(sgrasp1000,instance);
             
             double costog1000=sgrasp1000.costo();
 
             GRASP grasp10000;
             Solucion sgrasp10000=grasp10000.resolver(4,10000,instance);
             
-            // relocate(sgrasp10000,instance);
+             relocate(sgrasp10000,instance);
             
             double costog10000=sgrasp10000.costo();
 
